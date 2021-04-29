@@ -1,0 +1,446 @@
+body {
+  background-image: url("pictures/outline.png");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 200px;
+  font-family: impact;
+  color: white;
+  position: absolute;
+  top: 260px;
+  left: 380px;
+}
+
+.btn {
+  font-family: impact;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 470px;
+  left: 800px;
+}
+
+.screen {
+  content: url("pictures/screen1.png");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 1080px;
+  width: 1920px;
+}
+
+.character {
+  content: url("pictures/character.png");
+  position: absolute;
+  top: 500px;
+  left: 900px;
+  height: 120px;
+  width: 80px;
+}
+
+.text {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  background-color: grey;
+  max-width: 600px;
+  max-height: 600px;
+  position: absolute;
+  top: 900px;
+  left: 650px;
+}
+
+.inventory {
+  content: url("pictures/inventory.png");
+  position: absolute;
+  top: 10px;
+  left: 1750px;
+  height: 100px;
+  width: 110px;
+}
+
+.map {
+  content: url("pictures/map.png");
+  position: absolute;
+  top: 10px;
+  left: 1640px;
+  height: 90px;
+  width: 100px;
+}
+
+.mapOpen {
+  content: url("pictures/mapOpen.png");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 1080px;
+  width: 1920px;
+}
+
+.goBack {
+  content: url("pictures/goBack.png");
+  position: absolute;
+  top: 10px;
+  left: 1750px;
+  height: 100px;
+  width: 110px;
+}
+
+.here {
+  content: url("pictures/here.png");
+  position: absolute;
+  top: 720px;
+  left: 440px;
+  height: 75px;
+  width: 65px;
+}
+
+.start {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 720px;
+  left: 440px;
+  height: 150px;
+  width: 200px;
+}
+
+.stones {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 720px;
+  left: 680px;
+  height: 150px;
+  width: 200px;
+}
+
+.forest {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 400px;
+  left: 450px;
+  height: 200px;
+  width: 300px;
+}
+
+.mountain {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 350px;
+  left: 1130px;
+  height: 280px;
+  width: 300px;
+}
+
+.village {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 400px;
+  left: 900px;
+  height: 280px;
+  width: 330px;
+}
+
+.desert {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 700px;
+  left: 1350px;
+  height: 280px;
+  width: 300px;
+}
+
+.backPack {
+  font-size: 70px;
+  color: white;
+  background-color: brown;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 1510px;
+  height: 1080px;
+  width: 410px;
+}
+
+.goBack2 {
+  content: url("pictures/goBack.png");
+  position: absolute;
+  top: 1000px;
+  left: 1850px;
+  height: 50px;
+  width: 50px;
+}
+
+.stranger {
+  content: url("pictures/stranger.png");
+  position: absolute;
+  top: 460px;
+  left: 300px;
+  height: 180px;
+  width: 180px;
+}
+
+.yes {
+  font-size: 60px;
+  color: black;
+  background-color: grey;
+  font-family: sans-serif;
+  position: absolute;
+  top: 900px;
+  left: 300px;
+  height: 80px;
+  width: 120px;
+}
+
+.no {
+  font-size: 60px;
+  color: black;
+  background-color: grey;
+  font-family: sans-serif;
+  position: absolute;
+  top: 900px;
+  left: 1400px;
+  height: 80px;
+  width: 120px;
+}
+
+.monster {
+  content: url("pictures/monster.png");
+  position: absolute;
+  top: 850px;
+  left: 1550px;
+  height: 180px;
+  width: 180px;
+}
+
+.pig {
+  content: url("pictures/pig.png");
+  position: absolute;
+  top: 800px;
+  left: 400px;
+  height: 200px;
+  width: 200px;
+}
+
+.spear {
+  content: url("pictures/spear.png");
+  position: absolute;
+  top: 600px;
+  left: 1300px;
+  height: 100px;
+  width: 100px;
+}
+
+.item1 {
+  content: url("pictures/spear.png");
+  position: absolute;
+  top: 100px;
+  left: 1580px;
+  height: 200px;
+  width: 200px;
+}
+
+.item2 {
+  content: url("pictures/meat.png");
+  position: absolute;
+  top: 300px;
+  left: 1580px;
+  height: 200px;
+  width: 200px;
+}
+
+.item3 {
+  content: url("pictures/gold.png");
+  position: absolute;
+  top: 500px;
+  left: 1580px;
+  height: 200px;
+  width: 200px;
+}
+
+.meat {
+  content: url("pictures/meat.png");
+  position: absolute;
+  top: 800px;
+  left: 400px;
+  height: 200px;
+  width: 200px;
+}
+
+.house {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 650px;
+  left: 1080px;
+  height: 200px;
+  width: 130px;
+}
+
+.npc1 {
+  position: absolute;
+  top: 290px;
+  left: 1200px;
+  height: 150px;
+  width: 130px;
+}
+
+.ncp2 {
+  position: absolute;
+  top: 280px;
+  left: 550px;
+  height: 170px;
+  width: 130px;
+}
+
+.npc3 {
+  position: absolute;
+  top: 290px;
+  left: 260px;
+  height: 170px;
+  width: 130px;
+}
+
+.npc4 {
+  position: absolute;
+  top: 780px;
+  left: 860px;
+  height: 200px;
+  width: 130px;
+}
+
+.npc5 {
+  position: absolute;
+  top: 630px;
+  left: 890px;
+  height: 100px;
+  width: 130px;
+}
+
+.input {
+  position: absolute;
+  top: 510px;
+  left: 750px;
+}
+
+.input2 {
+  position: absolute;
+  top: 510px;
+  left: 960px;
+}
+
+.store {
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  top: 480px;
+  left: 1380px;
+  height: 170px;
+  width: 330px;
+}
+
+.hint {
+  content: url("pictures/hint.png");
+  position: absolute;
+  top: 950px;
+  left: 40px;
+  height: 100px;
+  width: 150px;
+}
+
+.chest {
+  content: url("pictures/chest1.png");
+  position: absolute;
+  top: 870px;
+  left: 1300px;
+  height: 200px;
+  width: 300px;
+}
+
+.person {
+  content: url("pictures/person.png");
+  position: absolute;
+  top: 570px;
+  left: 100px;
+  height: 250px;
+  width: 250px;
+}
+
+.arrow {
+  content: url("pictures/arrow.png");
+  position: absolute;
+  top: 880px;
+  left: 1650px;
+  height: 1px;
+  width: 1px;
+}
+
+.mage {
+  content: url("pictures/mage.png");
+  position: absolute;
+  top: 800px;
+  left: 1200px;
+  height: 300px;
+  width: 200px;
+}
+
+.upArrow {
+  content: url("pictures/upArrow.png");
+  position: absolute;
+  top: 600px;
+  left: 900px;
+  height: 1px;
+  width: 1px;
+}
+
+.boss {
+  content: url("pictures/boss.png");
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+  height: 500px;
+  width: 500px;
+}
+
+.health {
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 500px;
+  left: 1300px;
+}
+
+.boat {
+  content: url("pictures/boat.png");
+  position: absolute;
+  top: 500px;
+  left: 1500px;
+  height: 300px;
+  width: 400px;
+}
+
+.thanks {
+  content: url("pictures/thanks.png");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 1080px;
+  width: 1920px;
+}
